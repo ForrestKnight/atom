@@ -22,6 +22,8 @@ class AtomWindow
     locationsToOpen ?= []
 
     options =
+      frame: false
+      transparent: true
       show: false
       title: 'Atom'
       'web-preferences':
